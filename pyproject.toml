@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "blog-engine"
+version = "0.1.0"
+description = ""
+authors = ["Frank Greico"]
+readme = "README.md"
+
+
+packages = [
+    { include = "blog_engine" },
+]
+[tool.poetry.dependencies]
+python = "^3.11"
+tinydb = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
